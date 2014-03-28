@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://wxxr.com.cn/binding" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tv_detail_time_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="--"
+        android:textColor="@color/gd_setting_text"
+        android:textSize="@dimen/fontsize_30" 
+        bind:field="time"/>
+
+    <TextView
+        android:id="@+id/empty_line_right"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <CheckBox
+            android:id="@+id/cb_leak_detail_right"
+            style="@style/GD_MyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_detail_content_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/cb_leak_detail_right"
+            android:autoLink="web"
+            android:background="@drawable/coming_remind_detail_right"
+            android:gravity="center_vertical|left"
+            android:maxWidth="@dimen/chat_item_maxwid"
+            android:text="--"
+            android:textColor="@color/callrecorder_name"
+            android:textSize="@dimen/chatitem_font" 
+            bind:field="content"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:bind="http://wxxr.com.cn/binding"
+    android:id="@+id/louhua_empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gd_lh_hz_empty_text_margin_left"
+        android:layout_marginTop="@dimen/gd_lh_hz_empty_first_text_margin_top"
+        android:text="您还没有漏接电话记录"
+        bind:field="promptText"
+        android:textColor="@color/gd_setting_text"
+        android:textSize="@dimen/gd_lh_hz_empty_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gd_lh_hz_empty_text_margin_left"
+        android:layout_marginTop="@dimen/gd_lh_hz_empty_second_text_margin_top"
+        android:text="如果您没办理通信助手业务，无法使用此功能"
+        android:textColor="@color/gd_setting_text"
+        android:textSize="@dimen/gd_lh_hz_empty_text_size" 
+        bind:field="promptText2"/>
+
+    <Button
+        android:id="@+id/gd_empty_lh_hz_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/gd_lh_hz_empty_btn_margin_right"
+        android:layout_marginTop="@dimen/gd_lh_hz_empty_btn_margin_top"
+        android:background="@drawable/gd_lh_hz_empty_btn_selector"
+        android:text="马上办理"
+        android:textColor="@color/white"
+        android:textSize="@dimen/gd_lh_hz_empty_text_size" 
+        bind:field="*"
+        bind:on_Click="openImmediately"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/gd_louhua_empty_img"
+        android:scaleType="fitXY" 
+        />
+</LinearLayout>
+

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hdpi -->
+<resources>
+
+    <style name="home_arrow_top">
+        <item name="android:layout_marginTop">200dp</item>
+    </style>
+
+    <style name="contacts_width">
+        <item name="android:layout_width">290dp</item>
+    </style>
+
+    <!-- 中国移动...字体大小 -->
+    <style name="home1_title_textsize">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 我的记录高 -->
+    <style name="home1_myrecord_height">
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <!-- 我的记录 -->
+    <style name="home1_myrecord">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">0dip</item>
+    </style>
+
+    <!-- 漏话、短信字体大小 -->
+    <style name="home1_txtsize">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 模块（大） -->
+    <style name="home1_function_big_wh">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">122dp</item>
+    </style>
+
+    <style name="home1_function_big_img">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="home1_function_big_textsize">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 模块（小） -->
+    <style name="home1_function_small_height">
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="home1_function_small_img">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <style name="home1_function_small_textsize">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 标题栏 -->
+    <style name="titlebar_height">
+        <item name="android:layout_height">40dip</item>
+    </style>
+
+    <style name="titlebar_textsize">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="titlebar_img_wh">
+        <item name="android:layout_width">45dip</item>
+        <item name="android:layout_height">40dip</item>
+    </style>
+
+    <!-- 激活 -->
+    <style name="user_height">
+        <item name="android:layout_height">270dp</item>
+    </style>
+
+    <style name="user_textsize">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 温馨提示 -->
+
+    <style name="user_sweet_prompt_content_textsize">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="user_sweet_prompt_content_textsize2">
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+    </style>
+
+    <style name="user_sweet_prompt_height">
+        <item name="android:layout_height">180dip</item>
+    </style>
+
+    <!-- 手机号码顶部距离 -->
+    <style name="user_phonenumber_margintop">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- 获取验证码 -->
+    <style name="user_get_authcode_img">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 同意 -->
+    <style name="user_agree_textsize">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="user_agree_margintop">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="user_agree_line_width">
+        <item name="android:layout_width">158dp</item>
+    </style>
+
+    <!-- 激活按钮 -->
+    <style name="user_activate">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 键盘 -->
+    <style name="softkeyboard">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- 短信回执 -->
+    <!-- 功能设置 -->
+    <style name="msgback_setting_width">
+        <item name="android:layout_width">260dp</item>
+    </style>
+
+    <!-- 漏话，回执条目宽度 -->
+    <style name="item_width">
+        <item name="android:layout_width">290dp</item>
+    </style>
+
+    <!-- 漏话次数条目宽度 -->
+
+    <style name="item_width2">
+        <item name="android:layout_width">230dp</item>
+    </style>
+
+    <!-- 私密联系人img宽度和高度 -->
+    <style name="simi_person_width">
+        <item name="android:layout_width">60dip</item>
+    </style>
+
+    <style name="simi_person_height">
+        <item name="android:layout_height">60dip</item>
+    </style>
+
+    <!-- 漏话，回执 -->
+    <style name="item_image1_marginLeft">
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+
+    <style name="item_parameter_marginLeft">
+        <item name="android:layout_marginLeft">0dip</item>
+    </style>
+
+    <!-- home2 -->
+    <style name="home2_title_txt">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <!-- 微资讯 -->
+    <style name="home2_mini_info_height">
+        <item name="android:layout_height">180dip</item>
+    </style>
+
+    <!-- 图标（大） -->
+    <style name="home2_icon_big">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <!-- 图标（小） -->
+    <style name="home2_icon_small">
+        <item name="android:layout_width">30dip</item>
+        <item name="android:layout_height">30dip</item>
+    </style>
+
+    <style name="location_margin_top">
+        <item name="android:layout_marginTop">40dip</item>
+    </style>
+    <!-- 私密信息（联系人列表） -->
+    <style name="simi_contacts_item_width">
+        <item name="android:layout_width">280dip</item>
+    </style>
+
+    <!-- 个人中心home界面 -->
+    <style name="private_zoo_home_text_item" parent="@style/single_padding">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/gd_person_item_title_text_size</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+    <!-- 个人中心条目信息 -->
+    <style name="private_zoo_text_item">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:textSize">@dimen/gd_person_item_title_text_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- 个人中心条目信息(右) -->
+    <style name="private_zoo_text_item_right">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/gd_setting_text</item>
+        <item name="android:textSize">@dimen/gd_person_item_title_text_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 首页字体大小 -->
+    <style name="gd_home_item_big_font">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/gd_home_item_big_font</item>
+    </style>
+    <!-- 首页字体大小 -->
+    <style name="gd_home_item_small_font">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">@dimen/gd_home_item_small_font</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <!-- 首页ITEM大小 -->
+    <style name="gd_home_item">
+        <item name="android:paddingLeft">@dimen/gd_homeitem_pad_left</item>
+        <item name="android:paddingRight">@dimen/gd_homeitem_pad_right</item>
+        <item name="android:paddingTop">@dimen/gd_homeitem_pad_top</item>
+        <item name="android:paddingBottom">@dimen/gd_homeitem_pad_bottom</item>
+    </style>
+    <!-- 查询 按钮 -->
+    <style name="mobile_query_btn">
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:background">@drawable/private_zoo_mobile_query_seletor</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">查  询</item>
+        <item name="android:layout_marginRight">15dip</item>
+    </style>
+    <!-- 快捷输入 -->
+    <style name="gd_sms_quickinput_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/sms_detail_qucickinput_hei</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/sms_detail_qucickinput_item_marginleft</item>
+        <item name="android:layout_marginRight">@dimen/sms_detail_qucickinput_item_marginleft</item>
+        <item name="android:paddingLeft">@dimen/sms_detail_qucickinput_item_padleft</item>
+        <item name="android:paddingRight">@dimen/sms_detail_qucickinput_item_padleft</item>
+        <item name="android:layout_marginTop">@dimen/sms_detail_qucickinput_item_top</item>
+        <item name="android:textColor">#1b1b1b</item>
+        <item name="android:textSize">@dimen/fontsize_28</item>
+    </style>
+
+    <style name="guishudi_lable">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <!-- 查询按钮 -->
+    <style name="query_button">
+        <item name="android:textSize">@dimen/fontsize_28</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <!-- 开关按钮 -->
+    <style name="switch_button">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/setting_switch_on</item>
+    </style>
+    <!-- 归属地文本框黑色字体 -->
+    <style name="guishudi_balck">
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <!-- 归属地查询(大标题) -->
+    <style name="guishudi">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">20dp</item>
+    </style>
+    <!-- 说明文字 -->
+    <style name="subdescription_text">
+          <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/sub_description_gray</item>
+    </style>
+    <!-- 助手播报列表 -->
+    <style name="zhushoubobao">
+        <item name="android:layout_width">@dimen/zhushoubobaoimg_wid</item>
+        <item name="android:layout_height">@dimen/zhushoubobaoimg_hei</item>
+    </style>
+
+</resources>

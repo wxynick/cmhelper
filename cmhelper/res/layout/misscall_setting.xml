@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" 
+    xmlns:bind="http://wxxr.com.cn/binding" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gd_setting_margin_left"
+        android:layout_marginRight="@dimen/gd_setting_margin_right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/gd_setting_switch_margin_top"
+            android:background="@drawable/gd_setting_switch_bg"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/gd_tv_switch_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gd_setting_switch_text_margin_left"
+                android:layout_weight="1"
+                android:text="开启漏接电话提醒"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_setting_switch_text_size" 
+                bind:field="lable"
+                />
+
+            <ImageView
+                android:id="@+id/gd_iv_leak_callrecord_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/gd_setting_switch_btn_margin_right"
+                android:background="@drawable/gd_setting_switch_open" 
+                bind:field="isOpen"
+                bind:on_Click="setSwitch"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/gd_tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/gd_setting_switch_text_margin_left"
+            android:layout_marginTop="@dimen/gd_setting_text_margin_top"
+            android:text="@string/callrecord_setting_info"
+            android:textColor="@color/gd_setting_text"
+            android:textSize="@dimen/gd_setting_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

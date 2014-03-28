@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#e4e4e4</color>
+    <color name="gray_font">#b8b7bf</color>
+    <color name="gray_font_deep">#595b5d</color>
+    <color name="gray_news">#808080</color>
+    <color name="gray_divider">#dddddd</color>
+    <color name="red">#ff0000</color>
+
+    <!-- <color name="red_font">#ff0000</color> -->
+    <color name="red_stock">#e50000</color>
+    <color name="green">#00ff00</color>
+    <color name="red_font">#BA2514</color>
+    <color name="green_font">#3C7F00</color>
+
+    <!-- <color name="green_font">#088600</color> -->
+    <color name="blue_name">#0966be</color>
+    <color name="bluenew">#44A0FF</color>
+    <color name="bluenewchange">#b6c5ca</color>
+    <color name="blue_name2">#245DDB</color>
+    <color name="blue_menu">#abc7dc</color>
+    <color name="orange">#FFB41B</color>
+    <color name="yellow">#FFE400</color>
+    <color name="green_stock">#44A0FF</color>
+    <color name="changestockbackground">#212121</color>
+    <color name="changeyizhiyuqi">#467cb8</color>
+    <color name="changeyizhiyuqibackground">#b6c5ca</color>
+    <color name="changegray">#e5e5e5</color>
+    <color name="change_black_background">#393838</color>
+    <color name="change_gray_ziti">#c4c4c4</color>
+    <color name="xuangu_orange">#f57a17</color>
+    <color name="private_zoo_line_gray">#e6e6ea</color>
+    <color name="priavte_zoo_text_dark">#333333</color>
+    <!-- 贴图 -->
+    <color name="input_txt_content">#cccccc</color>
+    <color name="article_top_blue">#b6c5ca</color>
+    <color name="mysubscribe_text_white">#feffff</color>
+    <color name="deep_gray_text">#333333</color>
+    <color name="blue_font">#87D9EA</color>
+    <color name="shenghui">#2d2d2d</color>
+    <color name="stock_gray_text">#575757</color>
+    <color name="shujushuoming">#20b3ce</color>
+    <color name="longhushuoming">#20383c</color>
+    <color name="dingyueziti">#1b7485</color>
+    <color name="jiaoyi_gray">#bfbfbf</color>
+    <color name="jiaoyi_push_color">#c4b385</color>
+    <color name="jiaoyi_push_ziti">#313131</color>
+    <color name="jiaoyi_moni_sekuai">#7d1b12</color>
+    <color name="jiaoyi_red_ziti">#c43f32</color>
+    <color name="communication_ziti">#8a99c4</color>
+    <color name="communication_biaoti_ziti">#1563B4</color>
+    <color name="communication_tutu">#013c79</color>
+    <color name="communication_gray_ziti">#7399b7</color>
+    <color name="communication_yuefen_ziti">#3995d6</color>
+    <color name="huizhi_dialog_ziti">#7496B6</color>
+    <color name="huizhi_dialog_ziti_qian">#71b2ef</color>
+    <color name="huizhi_tanchukuang">#e7f0f4</color>
+    <color name="huizhi_sms_content_ziti">#003d68</color>
+    <color name="contacts_search_ziti">#809dbc</color>
+    <color name="lianxiren_divider">#b9e1ff</color>
+    <color name="lianxiren_category_background">#e7eaf6</color>
+    <color name="changjing_buxuanzhong_ziti">#e8e8e8</color>
+    <color name="intercept_content_color">#eff5f7</color>
+    <color name="intercept_fengexian">#c7e0eb</color>
+    <color name="huizhi_send_new">#a2e3b7</color>
+    <!-- 软键盘 -->
+    <color name="numkey_bg_color">#606060</color>
+    <color name="numkey_btn_text_color_white">#feffff</color>
+    <color name="numkey_btn_text_color_black">#2b2b2b</color>
+
+    <!-- my -->
+    <color name="home1_dottedline">#81a7c8</color>
+    <color name="mini_msg">#1563b4</color>
+    <color name="more_item">#013c79</color>
+    <color name="more_item_black">#000000</color>
+    <color name="idea_back_bg">#f7f7f7</color>
+    <color name="idea_back_et_hint">#8a99c4</color>
+    <color name="leak_session_empty">#a1b6d5</color>
+    <color name="leak_session_selected">#003d68</color>
+    <color name="leak_session_month">#3995d6</color>
+    <color name="popup">#e7f0f4</color>
+    <color name="callrecord_pb_txt">#809dbc</color>
+    <color name="location_show_text">#2b7dcc</color>
+    <color name="user_now_open">#1994ff</color>
+    <color name="user_authcode_unenable_text">#f2f2f2</color>
+    <color name="new_dialog_line">#19A6FF</color>
+    <color name="new_dialog_line2">#C7E0EB</color>
+    <color name="new_dialog_btn_press">#D1EDFF</color>
+    <color name="popUpAlert">#e8f0f3</color>
+    <color name="popUpAlertLine">#013c79</color>
+    <color name="popUpActivityBackground">#00000000</color>
+    <color name="home_user_color">#007bc9</color>
+    <color name="leak_msg_bg">#4070a7</color>
+    <color name="leak_msg_line">#fba828</color>
+    <color name="leak_msg_content">#f3f3f3</color>
+    <color name="leak_msg_head_name">#1a1f19</color>
+    <color name="leak_msg_head_count">#bdbdc5</color>
+    <color name="leak_msg_head_date">#fba828</color>
+    <color name="menu_line">#e6e6ea</color>
+    <color name="callrecorder_checked">#ededef</color>
+    <color name="callrecorder_name">#333333</color>
+    <color name="callrecorder_number">#d1d1d7</color>
+    <color name="msg_back_detail_line">#d9d9d9</color>
+    <color name="private_zoo_home_infomation">#9922a9ff</color>
+    <color name="confirmdialog_textcolor">#504f4f</color>
+    <color name="louhuafitter_textcolor">#3995d6</color>
+    <color name="contactsLetter">#5181b9</color>
+    <color name="contactsLetter_click">#271ad6</color>
+    <color name="contacts_item_letter">#1f66b8</color>
+    <color name="contacts_item_letter_line">#0060ce</color>
+    <color name="contacts_item_line">#bcbcbc</color>
+    <color name="contacts_sure">#404040</color>
+    <color name="contacts_cancle">#7e7e7e</color>
+
+    <!-- gd -->
+    <color name="gd_setting_text">#828282</color>
+    <color name="gd_callrecord_play_time">#7f828282</color>
+    <color name="gd_item_eighty">#cc828282</color>
+    <color name="gd_item_thirty">#4d828282</color>
+    <color name="gd_titlebar_text">#1b1b1b</color>
+    <color name="gd_titlebar_text_half">#7f1b1b1b</color>
+    <color name="gd_callrecord_long_press">#7fd9d9d9</color>
+    <color name="gd_dialog_line">#d5d5d5</color>
+    <color name="gd_item_line">#7fd5d5d5</color>
+    <color name="gd_private_lock_btn_bottom_line">#dadada</color>
+    <color name="gd_private_lock_text_press">#0180c8</color>
+    <color name="gd_pick_icon_list_item">#330098fb</color>
+    <color name="gd_private_lock_middle_bold_line">#6d6d6d</color>
+    <color name="gd_private_lock_middle_line">#e3e3e3</color>
+    <color name="gd_private_contacts_add_letter">#1f66b8</color>
+    
+    <!-- #007bc9 -->
+    <color name="touming">#00000000</color>
+    <color name="aboutus_color">#333333</color>
+    <color name="aboutus_color1">#3995d6</color>
+    <color name="guishudi_black">#1b1b1b</color>
+    <color name="sub_description_gray">#828282</color>
+    <color name="gd_web_like_text">#7f0180c8</color>
+    <!-- 广东hometab -->
+
+    <color name="gd_home_tabfont">#929292</color>
+    <color name="gd_home_tabfont_sel">#0180c8</color>
+    <color name="gd_detail_sendcolor">#828282</color>
+    <color name="gd_detail_sendcolorpress">#0180c8</color>
+    <color name="gd_pingdao_press">#177dd2</color>
+    <color name="gd_zsbb_divider">#e7e7e7</color>
+
+    
+    
+    
+    
+    
+    <color name="page_background_color">#181818</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="background_dark">#ff000000</color>
+    
+    <color name="bright_foreground_light">@color/background_dark</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_dark_inverse">@color/bright_foreground_light</color>
+    <color name="bright_foreground_dark">@color/background_light</color>
+    
+    
+    
+    
+    <color name="transparent">#00000000</color>
+</resources>

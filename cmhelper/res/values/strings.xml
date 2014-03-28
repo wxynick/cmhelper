@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="hello">Hello World, androidActivity!</string>
+    <string name="app_name">通信助</string>
+    <string name="guangdong_1">    中国移动通信助手业务，包含来电提醒和短信回执两项功能，可以帮助客户不漏掉任何一个电话、第一时间了解短信发送状态。
+	</string>
+    <string name="guangdong_2">               来电提醒：当客户“关机”或“不在服务区”时，所有漏接的来电，将在开机或回到服务区后，第一时间以短信形式告知客户。
+	</string>
+    <string name="guangdong_3">              短信回执：当客户给移动网内的朋友发送短信时，系统会即时回复一条短信，告知短信送达状态，更附带免费精彩信息资讯。
+	</string>
+    <string name="guangdong_4">              广东资费标准：通信助手0元包，首3个月免费，第四个月起2元/月。
+	</string>
+    <string name="chinamobile_0">        欢迎使用中国移动通信助手客户端。中国移动通信助手为您提供漏话提醒、短信送达状态提醒，并根据您通话、发送短信时的个性化需求，为您提供归属地、信箱锁和通话录音等功能。在提供相关服务时，为了有效保障您对个人信息享有的合法权利，进行如下说明。
+</string>
+    <string name="chinamobile_1">        您需要订购通信助手业务（全球通免费，动感地带神州行2元/月，由中国移动运营商收取），才能使用本客户端内来电提醒与短信回执功能服务。订购通信助手业务后，您需要注册客户端成为会员，才能长期使用客户端来电提醒、短信回执、归属地、微资讯、信息锁和录音等功能。
+</string>
+    <string name="chinamobile_2">        每次使用通信助手客户端需要联网（如接收短信回执和来电提醒的图文弹框），联网将产生一定的数据流量，流量费用将根据中国移动现行资费标准收取。
+</string>
+    <string name="chinamobile_3">        通信助手客户端作为通信助手业务的升级服务，旨在让您的电话和短信沟通更放心。即使您通过手机或者其他终端卸载了客户端软件，也不影响通信助手业务产生正常使用。如果您想退订通信助手业务，可发送QXTXZS到10086或拨打客服热线10086。此外，客户端功能说明和使用规则以每期升级后的客户端协议内容为准。
+</string>
+    <string name="chinamobile_4">     中国移动不会在未经您合法授权时，公开或泄露在提供服务过程中所获取的号码、短信、通话、录音、归属地等信息，但下列情况除外：
+1）依照国家有关法律、法规规定的公开或揭露；
+2）在紧急情况下，为维护您及公众的权益需要进行的公开或披露；
+3）为维护中国移动商标权、专利权以及其他合法权益需要进行的公开披露；
+4）其他依法需要公开或披露的合法情况。
+因发生不能合理控制、不可预见或者即使预见也无法避免的事件，造成客户端服务中断或终止，中国移动不承担任何责任，但中国移动将尽最大的努力维护您的权益。
+</string>
+    <string name="chinamobile_5">        根据产品的发展，中国移动可能会对本协议进行修改。如果您选择继续使用我们的服务，即表示您已经知晓并同意本协议内容。感谢您对通信助手的支持！
+</string>
+    <string name="chinamobile_6">        如果您的手机安装了其他短信客户端或者手机安全软件，可能导致通信助手部分功能无法使用，您可以在任务管理器中卸载该类型的软件，以保证通信助手所有功能正常使用 。</string>
+    <string name="sweet_prompt_1">・ 广东移动通信助手业务客户，激活后可长期使用客户端。</string>
+    <string name="sweet_prompt_2">・ 未订购通信助手业务的广东移动客户，激活后仅可在一</string>
+    <string name="sweet_prompt_3">定期限内免费使用客户端部分功能，若希望长期获得客</string>
+    <string name="sweet_prompt_4">户端服务，需</string>
+    <string name="sweet_prompt_5">・ 非广东移动客户，激活后仅可在一定期限内免费使用客</string>
+    <string name="sweet_prompt_6">户端部分功能。</string>
+    <string name="pingdaostring1">定制成功，您将优先接收应季健康提示、本地民生新闻、节日祝福、生活百科等资讯</string>
+    <string name="pingdaostring2">定制成功，您将优先接收糖尿病饮食治疗、运动治疗、药物治疗、康复保健、预防等资讯</string>
+    <string name="pingdaostring3">定制成功，您将优接收各类财经要闻、投资理财、股市快报等资讯</string>
+    <string name="pingdaostring4">定制成功，您将优先接收助眠技巧、睡眠养生等知识，让您科学睡眠，睡出健康</string>
+    <string name="pingdaostring5">定制成功，您将优先接收女性美容小知识、减肥攻略、服饰搭配、心情寄语等资讯</string>
+    <string name="pingdaostring6">定制成功，您将优先接收新闻热点、军事要闻、汽车前沿、数码新品等资讯</string>
+    <string name="pingdaostring7">定制成功，您将优先接收职场面试攻略、趣味国学、各类考试备考技巧等资讯</string>
+    <string name="pingdaostring8">定制成功，您将优先接收热点体育赛事报道、体坛巨星花边、体育知识介绍等资讯</string>
+    <string name="pingdaostring9">定制成功，您将优先接收最新娱乐八卦、笑话、幽默、热点话题、歇后语等资讯</string>
+    <string name="pingdaostring10">定制成功，您将优先接收全球旅游热点推荐、旅行提示、各地美食等资讯</string>
+    <string name="pingdaostring11">定制成功，您将优先接收移动业务使用技巧、移动公司各种优惠活动等资讯</string>
+    <string name="pingdaostring12">定制成功，您将优先接收房地产业界最新动态、家居流行趋势、家具选购等资讯</string>
+    <string name="pingdaostring13">定制成功，您将优先接收网上冲浪推荐.</string>
+    <string name="pingdaostring141">定制成功，您设定的预产期为</string>
+    <string name="pingdaostring142">我们会在每天回执中，提供一条与您的预产期对应的各类孕期健康知识，祝您轻松孕育宝宝!</string>
+    <string name="pingdaostring15">定制成功，您设定的性别与年龄为：女/男 YYYYMMDD，我们将优先为您提供与您的性别和年龄相符的专属信息。</string>
+    <string name="cancelpingdao1">您已取消生活健康频道</string>
+    <string name="cancelpingdao2">您已取消关爱糖友频道</string>
+    <string name="cancelpingdao3">您已取消财经快报频道</string>
+    <string name="cancelpingdao4">您已取消关注睡眠频道</string>
+    <string name="cancelpingdao5">您已取消伊人风尚频道</string>
+    <string name="cancelpingdao6">您已取消男性观点频道</string>
+    <string name="cancelpingdao7">您已取消教育招聘频道</string>
+    <string name="cancelpingdao8">您已取消体育前沿频道</string>
+    <string name="cancelpingdao9">您已取消休闲娱乐频道</string>
+    <string name="cancelpingdao10">您已取消旅游美食频道</string>
+    <string name="cancelpingdao11">您已取消移动通讯频道</string>
+    <string name="cancelpingdao12">您已取消房产家居频道</string>
+    <string name="cancelpingdao13">您已取消今日热点频道</string>
+    <string name="cancelpingdao14">您已取消每日育儿频道</string>
+    <string name="cancelpingdao15">您已取消私家资讯频道</string>
+    <!-- 个人中心 -->
+    <string name="private_zoo_register">注册赚话费！现在注册客户端，将有机会赢得百元话费哦！快快行动吧！</string>
+    <string name="success_register">您是否已订购中国移动通信助手业务？
+通信助手业务包括来电提醒、短信回执业务，为您提供漏接电话提醒以及短信送达状态提醒两大功能。
+</string>
+    <string name="errcode_success">分享成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <!-- 下拉刷新组件字符串 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">松开即可刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <!-- tag key -->
+    <string name="huizhi_onclick_type"></string>
+    <string name="huizhi_onclick_bean"></string>
+    <string name="no_receive_hz">您还未收到图文消息哦！</string>
+    <string name="callrecord_setting_info">开启后，您可在通话界面中，点击\"录\"，进行录音;当您点击\"停\"或随通话结束时，通信助手将为您生成通话录音。</string>
+    <string name="gd_leak_detail">开启后，客户端将弹框提醒您手机关机/无信号时的漏接电话。同时，手机收件箱的来电提醒短信仍将保留，但置为已读。</string>
+    <string name="congzhi_setting_description">开启后，将提醒您余额、月结日和停机信息，同时您可便捷的进行电话充值或查询余额。
+</string>
+    <string name="authcode_error">请登录邮箱核对校验码，并返回重新输入校验码。若选择客服协助，将代呼叫010-82652086，通话费由运营商按资费标准收取。</string>
+    <!-- 广东版分享内容 -->
+    <string name="share_sms">普大喜奔：通信助手官方客户端全新上线！关机漏接来电和短信送达弹框提醒，一目了然；图文视频和活动优惠精彩不断；还有通话录音、私密信息锁等免费功能，让您沟通更放心！安卓版下载地址： http://V1x.cn/N5k  </string>
+    <string name="share_weixi_title">通信助手客户端全新上线，让沟通更放心</string>
+    <string name="share_weixi_description">手机关机漏接来电和短信送达弹框提醒，一目了然；图文视频和活动优惠精彩不断；还有通话录音、私密信息锁等免费功能，让您沟通更放心！</string>
+    <string name="share_weixi_pageUrl">http://V1x.cn/N5k</string>
+    <string name="share_weibo">普大喜奔：通信助手官方客户端全新上线！关机漏接来电和短信送达弹框提醒，一目了然；图文视频和活动优惠精彩不断；还有通话录音、私密信息锁等免费功能，让您沟通更放心！安卓版下载地址： http://V1x.cn/N5k  </string>
+  <string name="mianzefilename">"privacyitem.html"</string>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <string name="action_settings">Settings</string>
+    
+    <string name="default_async_title">数据加载</string>  
+    <string name="default_async_message">数据正在加载中，请稍候...</string>
+    <string name="article_body_loading_text">正在加载数据，请稍侯...</string>
+    <string name="title_activity_splash_page">通信助手new</string>
+    
+     <string name="greetings">hello world</string>
+     <string name="start">start</string>
+     <string name="stop">stop</string>
+     
+     
+     
+     
+     
+     
+
+</resources>

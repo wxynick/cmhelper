@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://wxxr.com.cn/binding" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/gd_home_title_height"
+                android:layout_marginLeft="@dimen/gd_homeitem_pading"
+                android:layout_marginRight="@dimen/gd_homeitem_pading"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/temp_gd00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gd_home_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/temp_gd00"
+                    android:text="移动通信助手"
+                    android:textColor="#1b2b1b"
+                    android:textSize="@dimen/gd_hometitle_size" />
+
+                <ImageView
+                    android:id="@+id/gd_home_logonbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/gd_logonbtn_right"
+                    android:background="@drawable/gd_home_logonbtn" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_div"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/gd_homeitem_noticehei"
+                android:background="@drawable/gd_ghomenotice_bk"
+                android:paddingLeft="@dimen/gd_homeitem_pading"
+                android:paddingRight="@dimen/gd_homeitem_pading"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/gd_homenotice_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gd_homenotice_btn" />
+
+                <com.wxxr.mobile.callhelper.widget.MarqueeText
+                    android:id="@+id/gd_homenotice_text"
+                    android:layout_width="@dimen/gd_home_notice"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@id/gd_homenotice_btn"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#1b2b1b"
+                    android:textSize="@dimen/gd_homenotice_size" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/empty_notice"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/gd_emptynotice_hei" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/gd_homeitem_pading" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/gd_homeitem_height" >
+
+                    <RelativeLayout
+                        android:id="@+id/gd_callnotice"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_hometel_div" 
+                        bind:field="*"
+                        bind:on_Click="navToMissCallView">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gd_home_tel"
+                            android:gravity="center" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" >
+
+                            <TextView
+                                android:id="@+id/temp0"
+                                style="@style/gd_home_item_big_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="来电提醒" />
+
+                            <TextView
+                                android:id="@+id/temp1"
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/temp0"
+                                android:gravity="center"
+                                android:text="漏接电话\n快速掌握" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/gd_smsnotice"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_homesms_div" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gd_home_sms" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" >
+
+                            <TextView
+                                android:id="@+id/temp3"
+                                style="@style/gd_home_item_big_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="短信回执" />
+
+                            <TextView
+                                android:id="@+id/temp4"
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/temp3"
+                                android:gravity="center"
+                                android:text="送达报告\n一目了然" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/gd_homeitem_height"
+                    android:layout_marginTop="@dimen/gd_homeitem_vec_margin" >
+
+                    <RelativeLayout
+                        android:id="@+id/gd_simisuo"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_homesuo_div" >
+
+                        <ImageView
+                            android:id="@+id/home_suoicon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gd_home_suo" />
+
+                        <TextView
+                            android:id="@+id/temp_simi_new"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/home_suoicon"
+                            android:layout_marginLeft="-10dp"
+                            android:layout_marginTop="-5dp"
+                            android:layout_toRightOf="@id/home_suoicon"
+                            android:background="@drawable/simi_newread"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="10dip" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" >
+
+                            <TextView
+                                android:id="@+id/temp5"
+                                style="@style/gd_home_item_big_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="私密信息锁" />
+
+                            <TextView
+                                android:id="@+id/temp6"
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/temp5"
+                                android:gravity="center"
+                                android:text="短信加密\n保护隐私" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/gd_callrecord"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_homevoice_div" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gd_home_voice" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" >
+
+                            <TextView
+                                android:id="@+id/temp7"
+                                style="@style/gd_home_item_big_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="通话录音" />
+
+                            <TextView
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/temp7"
+                                android:gravity="center"
+                                android:text="手动录音\n自动保存" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/gd_homeitem_height"
+                    android:layout_marginTop="@dimen/gd_homeitem_vec_margin" >
+
+                    <RelativeLayout
+                        android:id="@+id/gd_guishudi"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_homeplace_div" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gd_home_place" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" >
+
+                            <TextView
+                                android:id="@+id/temp8"
+                                style="@style/gd_home_item_big_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="号码归属地" />
+
+                            <TextView
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/temp8"
+                                android:gravity="center"
+                                android:text="通话即显\n轻松查询" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/gd_mobilebusyness"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_homefind_div" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gd_home_find" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" >
+
+                            <TextView
+                                android:id="@+id/temp9"
+                                style="@style/gd_home_item_big_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="移动业务查询" />
+
+                            <TextView
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/temp9"
+                                android:gravity="center"
+                                android:text="余额流量\n尽在手中"
+                                android:textColor="@color/white" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/gd_homeitem_height"
+                    android:layout_marginTop="@dimen/gd_homeitem_vec_margin" >
+
+                    <RelativeLayout
+                        android:id="@+id/gd_chongzhi"
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_homechongzhi_div" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/gd_home_chongzhi" />
+
+                            <TextView
+                                style="@style/gd_home_item_small_font"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="20dp"
+                                android:gravity="center"
+                                android:text="充值"
+                                android:textColor="#1b1b1b"
+                                android:textSize="@dimen/fontsize_28" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        style="@style/gd_home_item"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/gd_homeitem_hor_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/gd_home_more" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/gd_home_add" />
+
+                        <TextView
+                            android:id="@+id/gd_simisuo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="更多功能\n敬请期待" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

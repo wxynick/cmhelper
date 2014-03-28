@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- push_msg_dialog -->
+    <!--
+    <dimen name="push_msg_top_icon_margin_left">11px</dimen>
+    <dimen name="push_msg_top_icon_margin_right">26px</dimen>
+    <dimen name="push_msg_margin_left">16px</dimen>
+    <dimen name="push_msg_margin_right">16px</dimen>
+    <dimen name="push_msg_margin_top">27px</dimen>
+    <dimen name="push_msg_margin_mottom">22px</dimen>
+    -->
+    <!-- push_msg_content -->
+    <!--
+         <dimen name="push_msg_content_margin_top">16px</dimen>
+    <dimen name="push_msg_content_margin_bottom">16px</dimen>
+    <dimen name="push_msg_content_margin_left">16px</dimen>
+    <dimen name="push_msg_content_margin_right">16px</dimen>
+    <dimen name="push_msg_content_margin">16px</dimen>
+    <dimen name="push_msg_content_img_margin_left">68px</dimen>
+    <dimen name="push_msg_content_img_margin_right">68px</dimen>
+    <dimen name="push_msg_content_img_height">145px</dimen>
+    -->
+
+
+    <!-- mini_info_push_msg -->
+    <!--
+    <dimen name="mini_info_lv_divider_height">14px</dimen>
+    <dimen name="mini_info_lv_margin_left">40px</dimen>
+    <dimen name="mini_info_lv_margin_right">40px</dimen>
+    <dimen name="mini_info_lv_margin_top">18px</dimen>
+    -->
+
+
+    <!-- selectcity_list_item -->
+    <!--
+    <dimen name="contacts_item_name_size">26px</dimen>
+    <dimen name="contacts_item_name_margin_left">30px</dimen>
+    <dimen name="contacts_item_letter_size">24px</dimen>
+    <dimen name="contacts_item_letter_padding_left">28px</dimen>
+    <dimen name="contacts_item_letter_margin_top">24px</dimen>
+    <dimen name="contacts_item_letter_height">24px</dimen>
+    <dimen name="contacts_item_content_height">76px</dimen>
+    <dimen name="contacts_item_checkbox_margin_right">20px</dimen>
+    <dimen name="contacts_item_total_size">16px</dimen>
+    <dimen name="contacts_choose_size">36px</dimen>
+    -->
+
+
+    <!-- gd_titlebar_800 -->
+    <dimen name="gd_titlebar_text_size">20sp</dimen>
+    <dimen name="gd_titlebar_left_margin_left">10px</dimen>
+    <dimen name="gd_titlebar_right_margin_right">10px</dimen>
+    <dimen name="gd_titlebar_height">74px</dimen>
+
+    <!-- gd_callrecord_item_800 -->
+    <dimen name="gd_callrecord_item_height">76px</dimen>
+    <dimen name="gd_callrecord_item_portrait_width">56px</dimen>
+    <dimen name="gd_callrecord_item_portrait_height">56px</dimen>
+    <dimen name="gd_callrecord_item_margin_left">20px</dimen>
+    <dimen name="gd_callrecord_item_margin_right">20px</dimen>
+    <dimen name="gd_callrecord_item_number_status_margin_left">17px</dimen>
+    <dimen name="gd_callrecord_item_number_margin_top">6px</dimen>
+    <dimen name="gd_callrecord_item_number_margin_bottom">8px</dimen>
+    <dimen name="gd_callrecord_item_number_size">22px</dimen>
+    <!-- 32 -->
+    <dimen name="gd_callrecord_item_duration_size">19px</dimen>
+    <!-- 26 -->
+    <dimen name="gd_callrecord_item_duration_margin_left">11px</dimen>
+    <dimen name="gd_callrecord_item_datetime_margin_left">8px</dimen>
+    <dimen name="gd_callrecord_item_checkbox_height">30px</dimen>
+    <dimen name="gd_callrecord_item_checkbox_width">30px</dimen>
+    <dimen name="gd_callrecord_item_portrait_text_size">34px</dimen>
+    <dimen name="gd_item_content_margin_right">30px</dimen>
+    <dimen name="gd_item_count_margin_left">10px</dimen>
+
+    <!-- gd_callrecord_800 -->
+    <dimen name="gd_callrecord_sb_height">173px</dimen>
+    <dimen name="gd_seekbar_margin_left">20px</dimen>
+    <dimen name="gd_seekbar_margin_right">20px</dimen>
+    <dimen name="gd_seekbar_pause_margin_left">33px</dimen>
+    <dimen name="gd_seekbar_margin_top">83px</dimen>
+    <dimen name="gd_play_time_margin_left">36px</dimen>
+    <dimen name="gd_play_time_margin_top">26px</dimen>
+    <dimen name="gd_play_time_text_size">20px</dimen>
+    <dimen name="gd_callrecord_empty_margin_top">98px</dimen>
+    <dimen name="gd_callrecord_empty_text_size">20px</dimen>
+    <dimen name="gd_callrecord_empty_content_margin_top">30px</dimen>
+    <dimen name="gd_lv_line_height">1px</dimen>
+    <dimen name="gd_callrecord_empty_img_left_margin">10px</dimen>
+    <dimen name="gd_callrecord_empty_img_right_margin">10px</dimen>
+
+    <!-- gd_menu_800 -->
+    <dimen name="gd_menu_text_size">22px</dimen>
+    <dimen name="gd_menu_height">70px</dimen>
+
+    <!-- louhua&huizhi empty_800 -->
+    <dimen name="gd_lh_hz_empty_text_margin_left">20px</dimen>
+    <dimen name="gd_lh_hz_empty_btn_margin_right">20px</dimen>
+    <dimen name="gd_lh_hz_empty_first_text_margin_top">40px</dimen>
+    <dimen name="gd_lh_hz_empty_second_text_margin_top">16px</dimen>
+    <dimen name="gd_lh_hz_empty_btn_margin_top">30px</dimen>
+    <dimen name="gd_lh_hz_empty_text_size">20px</dimen>
+
+    <!-- gd_setting_800 -->
+    <dimen name="gd_setting_switch_margin_top">30px</dimen>
+    <dimen name="gd_setting_margin_left">20px</dimen>
+    <dimen name="gd_setting_margin_right">20px</dimen>
+    <dimen name="gd_setting_switch_text_margin_left">11px</dimen>
+    <dimen name="gd_setting_switch_btn_margin_right">11px</dimen>
+    <dimen name="gd_setting_switch_text_size">20px</dimen>
+    <dimen name="gd_setting_text_margin_top">14px</dimen>
+    <dimen name="gd_setting_text_margin_bottom">20px</dimen>
+    <dimen name="gd_setting_text_size">16px</dimen>
+
+    <!-- gd_private_info_lock_800 -->
+    <dimen name="gd_private_lock_line_height">3px</dimen>
+    <dimen name="gd_private_lock_btn_height">63px</dimen>
+    <dimen name="gd_private_lock_btn_text_size">22px</dimen>
+    <dimen name="gd_private_lock_empty_first_margin_top">100px</dimen>
+    <dimen name="gd_private_lock_empty_second_margin_top">28px</dimen>
+    <dimen name="gd_private_lock_auth_margin_top">14px</dimen>
+    <dimen name="gd_private_lock_auth_margin_left">20px</dimen>
+    <dimen name="gd_private_lock_auth_margin_right">20px</dimen>
+    <dimen name="gd_private_lock_auth_top_text_margin_left">30px</dimen>
+    <dimen name="gd_private_lock_auth_top_second_text_margin_top">8px</dimen>
+    <dimen name="gd_private_lock_auth_top_third_text_margin_top">4px</dimen>
+    <dimen name="gd_private_lock_auth_top_text_size">20px</dimen>
+    <dimen name="gd_private_lock_auth_top_second_text_size">19px</dimen>
+    <dimen name="gd_private_lock_auth_middle_margin_top">29px</dimen>
+    <dimen name="gd_private_lock_auth_middle_line_margin_top">11px</dimen>
+    <dimen name="gd_private_lock_auth_first_check_margin_top">17px</dimen>
+    <dimen name="gd_private_lock_auth_check_text_margin_left">30px</dimen>
+    <dimen name="gd_private_lock_auth_third_line_margin_top">25px</dimen>
+    <dimen name="gd_private_lock_auth_btn_margin_top">26px</dimen>
+    <dimen name="gd_private_lock_auth_right_btn_margin_left">90px</dimen>
+    <dimen name="gd_private_lock_auth_top_text_margin_top">0px</dimen>
+
+    <!-- gd_hz_channel_800 -->
+    <dimen name="gd_hz_channel_margin_left">20px</dimen>
+    <dimen name="gd_hz_channel_top_margin_top">23px</dimen>
+    <dimen name="gd_hz_channel_top_margin_left">16px</dimen>
+    <dimen name="gd_hz_channel_middle_margin_top">28px</dimen>
+    <dimen name="gd_hz_channel_second_margin_top">10px</dimen>
+    <dimen name="gd_hz_channel_text_size">20px</dimen>
+    <dimen name="gd_hz_channel_name_text_size">17px</dimen>
+    <dimen name="gd_hz_channel_icon_margin_left">43px</dimen>
+    <dimen name="gd_hz_channel_text_margin_top">16px</dimen>
+    <dimen name="gd_hz_channel_icon_margin_top">28px</dimen>
+
+    <!-- gd_private_lock_pwd_pattern_800 -->
+    <dimen name="gd_private_lock_pattern_margin_top">33px</dimen>
+    <dimen name="gd_private_lock_pattern_text_size">22px</dimen>
+
+    <!-- gd_private_lock_pwd_set_800 -->
+    <dimen name="gd_private_lock_pwd_set_margin_right">20px</dimen>
+
+    <!-- gd_callrecord_seekbar_800 -->
+    <dimen name="gd_callrecord_sb_insetTop">7px</dimen>
+    <dimen name="gd_callrecord_sb_insetBottom">7px</dimen>
+
+    <!-- gd_private_info_800 -->
+    <dimen name="gd_private_info_empty_text_size">22px</dimen>
+    <dimen name="gd_private_info_item_name_textsize">22px</dimen>
+    <!-- 32 -->
+    <dimen name="gd_private_info_item_date_textsize">19px</dimen>
+    <!-- 26 -->
+    <dimen name="gd_private_info_item_content_textsize">19px</dimen>
+    <!-- 26 -->
+
+
+    <!-- gd_private_contacts_800 -->
+    <dimen name="gd_private_contacts_telphone_text_size">34px</dimen>
+    <dimen name="gd_private_contacts_empty_second_img_margin_left">10px</dimen>
+    <dimen name="gd_private_contacts_empty_second_img_margin_right">10px</dimen>
+    <dimen name="gd_private_contacts_telphone_margin_left">10px</dimen>
+    <dimen name="gd_private_contacts_item_name_textsize">20px</dimen>
+    <!-- 30 -->
+    <dimen name="gd_private_contacts_item_telphone_textsize">17px</dimen>
+    <!-- 26 -->
+    <dimen name="gd_private_contacts_item_date_textsize">16px</dimen>
+    <!-- 24 -->
+    <dimen name="gd_private_contacts_pop_textsize">22px</dimen>
+    <dimen name="gd_private_contacts_pop_width">236px</dimen>
+    <dimen name="gd_private_contacts_pop_height">144px</dimen>
+    <dimen name="gd_contacts_more_checkbox_height">59px</dimen>
+    <dimen name="gd_contacts_more_checkbox_width">59px</dimen>
+    <dimen name="gd_private_contacts_pop_line_margin_top">18px</dimen>
+
+    <!-- gd_img_text_dialog_800 -->
+    <dimen name="gd_dialog_it_margin_left">20px</dimen>
+    <dimen name="gd_dialog_it_margin_right">20px</dimen>
+    <dimen name="gd_dialog_it_content_margin_top">16px</dimen>
+    <!-- 31 -->
+    <dimen name="gd_dialog_it_content_margin_bottom">6px</dimen>
+    <!-- 31 -->
+    <dimen name="gd_dialog_it_titlebar_text_size">20px</dimen>
+    <dimen name="gd_dialog_it_titlebar_margin_left">25px</dimen>
+    <dimen name="gd_dialog_it_content_text_size">18px</dimen>
+    <!-- 24 -->
+    <dimen name="gd_dialog_it_content_second_title_text_size">15px</dimen>
+    <dimen name="gd_dialog_it_content_info_text_size">17px</dimen>
+ <!-- 24 -->
+    <!-- 24 -->
+    <dimen name="gd_dialog_it_content_margin">16px</dimen>
+    <dimen name="gd_dialog_it_btn_height">90px</dimen>
+    <dimen name="gd_dialog_it_btn_margin_top">16px</dimen>
+    <dimen name="gd_dialog_it_btn_text_size">18px</dimen>
+    <dimen name="gd_dialog_it_content_height">128px</dimen>
+    <dimen name="gd_dialog_it_content_img_height">67px</dimen>
+    <dimen name="gd_dialog_it_content_img_width">81px</dimen>
+    <dimen name="gd_dialog_it_new_content_margin">11px</dimen>
+    <dimen name="gd_dialog_it_new_content_text_margin_left">12px</dimen>
+    <dimen name="gd_dialog_it_new_content_text_size">12px</dimen>
+    <!-- 18 -->
+    <dimen name="gd_dialog_it_new_content_datetime_text_size">12px</dimen>
+    <dimen name="gd_dialog_it_new_second_content_margin_top">4px</dimen>
+    <!-- 8 -->
+
+
+    <!-- gd_dialog_800 -->
+    <dimen name="gd_dialog_titlebar_height">48px</dimen>
+    <dimen name="gd_dialog_titlebar_icon_margin_left">25px</dimen>
+    <dimen name="gd_dialog_titlebar_close_margin_right">25px</dimen>
+    <dimen name="gd_dialog_titlebar_text_margin_left">16px</dimen>
+    <dimen name="gd_dialog_content_text_size">19px</dimen>
+    <dimen name="gd_dialog_private_lock_open_text_size">16px</dimen>
+    <dimen name="gd_dialog_content_margin_top">16px</dimen>
+    <dimen name="gd_dialog_content_second_margin_bottom">12px</dimen>
+    <dimen name="gd_dialog_content_margin_bottom">24px</dimen>
+    <dimen name="gd_dialog_titlebar_text_size">20px</dimen>
+    <dimen name="gd_dialog_btn_height">75px</dimen>
+    <dimen name="gd_dialog_btn_text_size">20px</dimen>
+    <dimen name="gd_dialog_hand_add_et_margin_top">20px</dimen>
+
+    <!-- gd_private_lock_email_edit_800 -->
+    <dimen name="gd_private_email_margin_top">47px</dimen>
+    <dimen name="gd_private_email_edittext_margin_top">58px</dimen>
+    <dimen name="gd_private_email_text_size">23px</dimen>
+    <dimen name="gd_private_email_line_margin_top">11px</dimen>
+
+    <!-- gd_selectcity_list_item_800 -->
+    <dimen name="gd_contacts_item_name_size">22px</dimen>
+    <!-- 36px -->
+    <dimen name="gd_contacts_item_name_margin_left">38px</dimen>
+    <!-- 48px -->
+    <dimen name="gd_contacts_item_letter_size">20px</dimen>
+    <!-- 30px -->
+    <dimen name="gd_contacts_item_letter_padding_left">38px</dimen>
+    <!-- 46px -->
+    <dimen name="gd_contacts_item_letter_margin_top">12px</dimen>
+    <!-- 18px -->
+    <dimen name="gd_contacts_item_letter_height">38px</dimen>
+    <!-- 52px -->
+    <dimen name="gd_contacts_item_content_height">75px</dimen>
+    <!-- 114px -->
+    <dimen name="gd_contacts_item_checkbox_margin_right">4px</dimen>
+    <dimen name="gd_contacts_item_total_size">16px</dimen>
+    <!-- 30px -->
+    <dimen name="gd_contacts_choose_size">40px</dimen>
+    <dimen name="gd_contacts_item_width">430px</dimen>
+    <dimen name="gd_contacts_item_total_contacts_margin_right">5px</dimen>
+
+    <!-- gd_dialog_forgetpwd_800 -->
+    <dimen name="gd_dialog_forgetpwd_text_margin_left">25px</dimen>
+    <dimen name="gd_dialog_forgetpwd_text_margin_right">25px</dimen>
+    <dimen name="gd_dialog_forgetpwd_text_margin_top">15px</dimen>
+    <dimen name="gd_dialog_forgetpwd_text_size">20px</dimen>
+    <dimen name="gd_dialog_forgetpwd_edit_margin_top">35px</dimen>
+    <dimen name="gd_dialog_forgetpwd_edit_line_margin_top">10px</dimen>
+    <dimen name="gd_dialog_forgetpwd_btn_margin_top">14px</dimen>
+    <dimen name="gd_dialog_forgetpwd_et_height">60px</dimen>
+    <dimen name="gd_dialog_forgetpwd_second_dialog">100px</dimen>
+
+    <!-- home_800 -->
+    <dimen name="gd_homeitem_height">82dp</dimen>
+    <dimen name="gd_homeitem_pad_left">14px</dimen>
+    <dimen name="gd_homeitem_pad_right">16px</dimen>
+    <dimen name="gd_homeitem_pad_top">18px</dimen>
+    <dimen name="gd_homeitem_pad_bottom">18px</dimen>
+    <dimen name="gd_homeitem_pading">10dp</dimen>
+    <dimen name="gd_homeitem_hor_margin">6dp</dimen>
+    <dimen name="gd_homeitem_vec_margin">10dp</dimen>
+    <dimen name="gd_hometitle_size">20sp</dimen>
+    <dimen name="gd_homenotice_size">13sp</dimen>
+    <dimen name="gd_home_title_height">50dp</dimen>
+    <dimen name="gd_logonbtn_right">36px</dimen>
+    <dimen name="gd_hometab_fontsize">12sp</dimen>
+    <dimen name="gd_home_item_big_font">14sp</dimen>
+    <dimen name="gd_home_item_small_font">10sp</dimen>
+    <dimen name="gd_home_notice">450px</dimen>
+    <dimen name="gd_homeitem_noticehei">34px</dimen>
+    <dimen name="gd_botomcity">60px</dimen>
+    <dimen name="bottombar_hei">50dp</dimen>
+    <dimen name="gd_emptynotice_hei">3dp</dimen>
+    <dimen name="fontsize_20">12sp</dimen>
+    <dimen name="fontsize_26">13sp</dimen>
+    <dimen name="fontsize_28">14sp</dimen>
+    <dimen name="fontsize_30">14sp</dimen>
+    <dimen name="fontsize_34">18sp</dimen>
+    <dimen name="fontsize_40">20sp</dimen>
+
+    <!-- 短信,漏电 的终端页 -->
+    <dimen name="sms_detail_sendwid">50dp</dimen>
+    <dimen name="sms_detail_sendtop">14dp</dimen>
+    <dimen name="sms_detail_sendbtntop">20dp</dimen>
+    <dimen name="sms_detail_sendright">12dp</dimen>
+    <dimen name="sms_detail_qucickinput_right">10px</dimen>
+    <dimen name="sms_detail_qucickinput_left">10px</dimen>
+    <dimen name="sms_detail_qucickinput_item_top">7dp</dimen>
+    <dimen name="sms_detail_qucickinput_item_padleft">2dp</dimen>
+    <dimen name="sms_detail_qucickinput_item_marginleft">2dp</dimen>
+    <dimen name="sms_detail_qucickinput_hei">26dp</dimen>
+    <dimen name="chat_item_maxwid">260dp</dimen>
+    <dimen name="gd_simisuo_resetmail_nowemailtop">60px</dimen>
+    <dimen name="gd_simisuo_resetmail_newemailtop">86px</dimen>
+    <dimen name="gd_simisuo_bindmail_tiptop">35px</dimen>
+    <dimen name="gd_simisuo_bindmail_tipbottom">25px</dimen>
+    <dimen name="gd_simisuo_bindmail_tipleft">45px</dimen>
+
+    <!-- gd_item_long_dialog_800 -->
+    <dimen name="gd_item_long_dialog_text_size">20px</dimen>
+    <dimen name="gd_item_long_dialog_margin_left">25px</dimen>
+    <dimen name="gd_item_long_dialog_height">49px</dimen>
+    <!-- 首页微资讯适配 -->
+    <dimen name="gd_wzx_icon_height">35.33dip</dimen>
+    <dimen name="gd_wzx_zsbb_icon">50dip</dimen>
+<!--     <dimen name="gd_wzx_item_bottom_icon">20.0dip</dimen> -->
+    <dimen name="gd_wzx_item_height">150px</dimen>
+    <dimen name="gd_wzx_item_bottom_height">85px</dimen>
+    <dimen name="gd_wzx_item_bottom_icon">30px</dimen>
+
+    <!-- gd_news -->
+    <dimen name="gd_news_zsbb_title">13.33sp</dimen>
+    <dimen name="gd_news_zsbb_desc">12sp</dimen>
+    <dimen name="gd_news_pingdao_top_text_size">13.33sp</dimen>
+    <dimen name="gd_news_pingdao_margin_top">9.33dip</dimen>
+    <dimen name="gd_news_pingdao_bottom_text_size">11sp</dimen>
+    <dimen name="gd_new_bottom_item_mar_top">8dip</dimen>
+    <dimen name="gd_new_bottom_vertical_spacing">7dip</dimen>
+    <!-- gd_person_center -->
+    <dimen name="gd_person_icon_dimen">60dip</dimen>
+    <dimen name="gd_person_item_title_text_size">15sp</dimen>
+    <dimen name="gd_person_private_item_title_text_size">13sp</dimen>
+    <dimen name="gd_person_margin_top">12dip</dimen>
+    <!-- gd_mobile_query -->
+    <dimen name="gd_mobile_query_item_padding_top_bottom">12.0dip</dimen>
+    <dimen name="gd_mobile_query_item_padding_left_right">10.0dip</dimen>
+    <dimen name="gd_mobile_query_item_margin_bottom">15dip</dimen>
+    <dimen name="gd_mobile_query_desc_text_size">13sp</dimen>
+    <dimen name="gd_zsbb_padding">150dp</dimen>
+    <!-- gd_share_dialog -->
+    <dimen name="gd_share_dialog_title_text_size">13.5sp</dimen>
+    <dimen name="gd_share_dialog_content_text_size">12sp</dimen>
+    <dimen name="gd_share_dialog_subs_text_size">10.5sp</dimen>
+
+    <!-- 助手播报 -->
+    <dimen name="zhushoubobaoimg_wid">120dp</dimen>
+    <dimen name="zhushoubobaoimg_hei">80dp</dimen>
+
+    <!-- 对话终端页 字体 -->
+    <dimen name="chatitem_font">14sp</dimen>
+
+    <!-- 猜你喜欢详情页 -->
+    <dimen name="gd_cainnixihuan_detailfont">13sp</dimen>
+    <dimen name="gd_itme_height">146px</dimen>
+
+</resources>

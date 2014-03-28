@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://wxxr.com.cn/binding" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:contentDescription="home_page_new" >
+
+    <LinearLayout
+        android:id="@+id/homeframe"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        bind:field="contents">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cheapdivline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#efefef"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_minimsg_21city_cheap"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/gd_botomcity"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/ll_minimsg_21city_cheap_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:textColor="#1b1b1b"
+            android:textSize="@dimen/fontsize_30" />
+    </LinearLayout>
+
+    <include layout="@layout/bottom_tab_bar"/>
+
+    <ImageView
+        android:id="@+id/cursor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix" />
+
+</LinearLayout>

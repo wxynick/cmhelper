@@ -1,0 +1,76 @@
+<?xml  version="1.0"  encoding="UTF-8" ?> 
+<reminder>
+<province>
+  <name>HB</name> 
+  <remindertext>.*[0-9]{11}.*在.*月.*日.*呼叫您.*次.*or.*[0-9]{11}.*在.*共呼叫您.*次.*or.*您好.*您所拨打的电话已转入来电提醒，您的本次呼叫记录将在第一时间以短信告知对方.*</remindertext> 
+  </province>
+<province>
+  <name>BJ</name> 
+  <remindertext>.*中国移动北京公司来电提醒.*呼叫过您.*or.*中国移动北京公司来电提醒.*呼叫过您.*最后一次呼叫时间为.*</remindertext> 
+  </province>
+<province>
+  <name>LN</name> 
+  <remindertext>.*来电提醒.*给您打过电话.*可方便时回电.*</remindertext> 
+  </province>
+<province>
+  <name>ZJ</name> 
+  <remindertext>.*欢迎使用来电提醒业务，本次呼叫将以点对点短信方式提醒您呼叫的用户，谢谢使用，再见*.</remindertext> 
+  </province>
+<province>
+  <name>NMG</name> 
+  <remindertext>.*用户.*在.*月.*日.*呼叫过您.*or.*用户.*呼叫过您.*次.*</remindertext> 
+  </province>
+<province>
+  <name>HE</name> 
+  <remindertext>.*中国移动来电提醒业务提醒您.*请及时回复.*</remindertext> 
+  </province>
+<province>
+  <name>SX</name> 
+  <remindertext>.*用户.*在.*月.*日.*拨打过您的电话.*请及时回复.*or.*用户.*共呼叫您.*最近一次呼叫时间为.*请及时回复.*</remindertext> 
+                
+  </province>
+<province>
+  <name>GZ</name> 
+  <remindertext>.*[0-9]{11}.*在.*来电.*or.*[0-9]{11}.*在.*来电.*累计呼叫.*次.*</remindertext> 
+  </province>
+<province>
+  <name>GD</name> 
+  <remindertext>.*广东移动提醒您.*给您来电.*次.*您可按通话键或选项键直接回拨.*</remindertext> 
+  </province>
+  <province>
+  <name>SH</name> 
+  <remindertext>.*上海移动来电提醒为您服务.*</remindertext> 
+  </province>
+  <province>
+  <name>SC</name> 
+  <remindertext>.*四川移动来电提醒业务为您服务.*</remindertext>
+  </province>
+  
+  <province>
+  <name>FJ</name> 
+  <remindertext>.*中国移动来电提醒业务提醒您.*期间.*呼入.*最近为.*</remindertext>
+  </province>
+  
+  
+  <province>
+  <name>GX</name> 
+  <remindertext>.*尊敬的客户您好.*拨打过您手机.*</remindertext>
+  </province>
+  
+  
+  
+  <province>
+  <name>XJ</name> 
+  <remindertext>.*来电管家提醒您.*用户.*在.*呼叫过您.*请及时与之联系.*or.*来电管家提醒您.*用户.*呼叫过您.*最近一次来电时间为.*请您及时与之联系.*</remindertext>
+  </province>
+  
+  <province>
+  <name>SN</name> 
+  <remindertext>.*陕西移动来电提醒.*您在.*未接来电.*</remindertext>
+  </province>
+   
+   
+   
+   
+   
+</reminder>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://wxxr.com.cn/binding"
+    android:layout_width="fill_parent"
+  	android:layout_height="@dimen/bottombar_hei"
+    android:background="@drawable/gd_homebar_bk"
+    android:paddingTop="4dp" 
+    >
+
+    <RelativeLayout
+        android:id="@+id/gd_home_tabhome_div"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+         >
+
+        <ImageView
+            android:id="@+id/gd_tabhome_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gd_tabhome"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="10dip" 
+            bind:field="homeSelected"
+            bind:on_Click="goHome" 
+            />
+
+        <TextView
+            android:id="@+id/gd_tabhome_simi_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/gd_tabhome_img"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toRightOf="@id/gd_tabhome_img"
+            android:background="@drawable/simi_newread"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="10dip" 
+            bind:field="siminewsText"/>
+
+        <TextView
+            android:id="@+id/gd_tabhome_txt"
+            style="@style/gd_home_tab_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gd_tabhome_img"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="通信助手" 
+            bind:field="textHomeSelected"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/gd_home_tabnews_div"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gd_tabnews_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/gd_tabnews"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="22.0dip" 
+            bind:field="newSelected"
+            bind:on_Click="goNews"/>
+
+        <TextView
+            android:id="@+id/gd_tabnews_txt"
+            style="@style/gd_home_tab_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="微资讯" 
+            bind:field="textNewSelected"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gd_home_tabsquare_div"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gd_tabsquare_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/gd_tabsquare"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="22.0dip" 
+            bind:field="plazaSelected"
+            bind:on_Click="goPlaza"/>
+
+        <TextView
+            android:id="@+id/gd_tabsquare_txt"
+            style="@style/gd_home_tab_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="广场" 
+            bind:field="textPlazaSelected"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gd_home_tabperson_div"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gd_tabperson_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/gd_tabperson"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="22.0dip" 
+            bind:field="personalCentreSelected"
+            bind:on_Click="goPersonalCentre" />
+
+        <TextView
+            android:id="@+id/gd_tabperson_txt"
+            style="@style/gd_home_tab_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="个人中心"
+            bind:field="textPersonalCentreSelected"
+            />
+    </LinearLayout>
+
+</LinearLayout>

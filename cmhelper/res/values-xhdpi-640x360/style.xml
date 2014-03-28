@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xhdpi -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 个人中心 -->
+    <!-- EditText&Button -->
+    <style name="editText_button">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <!-- EditText -->
+    <style name="editText_style" parent="@style/editText_button">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/private_zoo_input</item>
+    </style>
+    <!-- Button -->
+    <style name="private_button" parent="@style/editText_button">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/private_zoo_ok</item>
+    </style>
+    <!-- 条目高度 -->
+    <style name="item_height">
+        <item name="android:layout_height">50dip</item>
+    </style>
+    <!-- 条目文本框 -->
+    <style name="item_text" parent="@style/titlebar_textsize">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="item_text_home" parent="@style/item_text">
+        <item name="android:layout_marginLeft">20dip</item>
+    </style>
+
+    <style name="item_text_information_left" parent="@style/item_text">
+        <item name="android:layout_marginLeft">50dip</item>
+    </style>
+
+    <style name="item_text_information_right" parent="@style/item_text">
+        <item name="android:layout_marginLeft">30dip</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <!-- 移动业务查询按钮 -->
+    <style name="mobile_query_btn">
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:background">@drawable/private_zoo_mobile_query_seletor</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">查  询</item>
+        <item name="android:layout_marginRight">15dip</item>
+    </style>
+    <!-- 私密信息（联系人列表） -->
+    <style name="simi_contacts_item_width">
+        <item name="android:layout_width">250dip</item>
+    </style>
+    <!-- 客服电话上下间距 -->
+    <style name="service_margin">
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginBottom">5dip</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <!-- 归属地查询(大标题) -->
+    <style name="guishudi">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">20dp</item>
+    </style>
+    <!-- 单个背景框外层布局 -->
+    <style name="single_padding">
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!-- 归属地文本框黑色字体 -->
+    <style name="guishudi_balck">
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="guishudi_lable">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <!-- 查询按钮 -->
+    <style name="query_button">
+        <item name="android:textSize">@dimen/fontsize_28</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <!-- 开关按钮 -->
+    <style name="switch_button">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/setting_switch_on</item>
+    </style>
+
+    <style name="guishudi_lable_textsize">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="guishudi_result_textsize">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 说明文字 -->
+    <style name="subdescription_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/sub_description_gray</item>
+    </style>
+
+    <style name="gd_home_item">
+        <item name="android:paddingLeft">@dimen/gd_homeitem_pad_left</item>
+        <item name="android:paddingRight">@dimen/gd_homeitem_pad_right</item>
+        <item name="android:paddingTop">@dimen/gd_homeitem_pad_top</item>
+        <item name="android:paddingBottom">@dimen/gd_homeitem_pad_bottom</item>
+    </style>
+
+    <style name="gd_home_item_big_font">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/gd_home_item_big_font</item>
+    </style>
+
+    <style name="gd_home_item_small_font">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">@dimen/gd_home_item_small_font</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <!-- 归属地 -->
+    <style name="location_input" parent="@style/guishudi_lable_textsize">
+        <item name="android:layout_height">40dip</item>
+    </style>
+
+    <style name="location_button_height">
+        <item name="android:layout_height">40dip</item>
+    </style>
+
+    <!-- 字体大小 -->
+    <style name="location_button_txt_size">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 个人中心条目信息 -->
+    <style name="private_zoo_text_item">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:textSize">@dimen/fontsize_34</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- 个人中心条目信息(右) -->
+    <style name="private_zoo_text_item_right">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/gd_setting_text</item>
+        <item name="android:textSize">@dimen/fontsize_34</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- 个人中心home文字 -->
+    <style name="private_zoo_home_text">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/guishudi_black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/fontsize_34</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <!-- 助手播报列表 -->
+    <style name="zhushoubobao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

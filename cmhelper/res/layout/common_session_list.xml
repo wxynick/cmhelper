@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_leak_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" 
+    xmlns:bind="http://wxxr.com.cn/binding" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/temp_layout_tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ListView
+                    android:id="@+id/list_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:cacheColorHint="@color/white"
+                    android:listSelector="@color/white"
+                    android:divider="@color/gd_item_line"
+                    android:dividerHeight="@dimen/gd_lv_line_height"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"
+                    android:visibility="visible" 
+                    bind:field="smsgroup"
+                    bind:itemViewId="MissCallSessionListItemView"
+                    bind:on_ItemClick="itemClicked@ItemClickDecorator"
+                    bind:on_ItemLongClick="itemLongClick"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

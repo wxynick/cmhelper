@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0.0-SNAPSHOT" package="com.wxxr.mobile.callhelper">
+
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="18"/>
+
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/logo_main" android:label="@string/app_name" android:name=".MobileApplication" android:theme="@style/AppTheme">
+        
+        <activity android:label="@string/title_activity_splash_page" android:name=".ui.SplashPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name=".ui.HomePage" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name=".ui.GuidePage" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name=".ui.MissCallSetPage" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name=".ui.ConfirmDialog" android:screenOrientation="portrait" /><!--  android:theme="@style/floatwindow" -->
+        <service android:name=".shell.InterceptSmsShell"/>
+    </application>
+    
+    
+    
+    
+    
+    	 <!-- 录音权限 -->
+	    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	    <!-- 电话状态权限 -->
+	    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+	    <uses-permission android:name="android.permission.CALL_PHONE"/>
+	
+	    <!-- 启动权限 -->
+	    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	    <!-- sdcard文件创建删除权限 -->
+	    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	    <!-- sdcard写权限 -->
+	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+	    <!-- 短信访问权限 -->
+	    <uses-permission android:name="android.permission.READ_SMS"/>
+	    <!-- 短信的写权限 -->
+	    <uses-permission android:name="android.permission.WRITE_SMS"/>
+	
+	    <!-- 联系人的读权限 -->
+	    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+	    <!-- 短信发送权限 -->
+	    <uses-permission android:name="android.permission.SEND_SMS"/>
+	    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	
+	    <!-- webview -->
+	    <uses-permission android:name="android.permission.INTERNET"/>
+	    
+	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	    <uses-permission android:name="android.permission.GET_TASKS"/>
+	    <uses-permission android:name="android.permission.VIBRATE"/>
+
+</manifest>

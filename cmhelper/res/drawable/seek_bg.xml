@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 背景图 -->
+
+
+    <!--
+         <item
+        android:id="@+android:id/background"
+        android:drawable="@drawable/callrecord_process"/>
+    -->
+
+
+    <!-- 全部能量图 -->
+
+
+    <!--
+        <item
+        android:id="@+android:id/SecondaryProgress"
+        android:drawable="@drawable/gd_callrecord_process"/>
+    -->
+
+
+    <!-- 进和能量图 -->
+
+
+    <!--
+        <item
+        android:id="@+android:id/progress"
+        android:drawable="@drawable/gd_callrecord_all"/>
+    -->
+
+    <item android:id="@android:id/background">
+        <inset
+            android:insetBottom="@dimen/gd_callrecord_sb_insetBottom"
+            android:insetTop="@dimen/gd_callrecord_sb_insetTop" >
+            <shape>
+                <corners android:radius="10dip" />
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="#ffffff"
+                    android:endColor="#ffffff"
+                    android:startColor="#ffffff" />
+
+                <stroke
+                    android:width="0.1dp"
+                    android:color="#b7b7b7" />
+            </shape>
+        </inset>
+    </item>
+    
+    <item android:id="@android:id/progress">
+        <clip>
+            <inset
+                android:insetBottom="@dimen/gd_callrecord_sb_insetBottom"
+                android:insetTop="@dimen/gd_callrecord_sb_insetTop" >
+                <shape>
+                    <corners android:radius="10dip" />
+
+                    <gradient
+                        android:angle="270"
+                        android:centerColor="#3ea5f1"
+                        android:endColor="#3ea5f1"
+                        android:startColor="#3ea5f1" />
+
+                    <stroke
+                        android:width="0.1dp"
+                        android:color="#b7b7b7" />
+                </shape>
+            </inset>
+        </clip>
+    </item>
+
+</layer-list>

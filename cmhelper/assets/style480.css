@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ width:100%; margin:0 auto; padding:0; font-family: "微软雅黑", Helvetica,serif; font-size:20px; text-align:left;}
+div,p,span,a,input,ul,li,font,h1,h2,h3,h4,img,dl,dt,dd,ol{ margin:0; padding:0; list-style:none; border:0;}
+#main p.main-title{padding-left:10px;}
+#main > div{ padding-left:10px; padding-right:10px;}
+#head{ width:696px; height:102px; padding:36px 0 0 24px;}
+#head img{ vertical-align:middle;}
+#head h3{ display:inline-block; margin-left:100px; font-size:26px; font-weight:100;margin-top:20px; }
+#main{ margin:0 auto;}
+#main .title{color:#828282; font-size:18px; line-height:28px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

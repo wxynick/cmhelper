@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<config>
+<rule><name>PriorityOnlyRule</name><class>com.wxxr.callhelper.zjhz.rules.PriorityOnlyRule</class></rule>
+<rule><name>ZjhzMessagePickRule</name><class>com.wxxr.callhelper.zjhz.rules.ZjhzMesssagePickupRule</class></rule>
+<rule><name>StartDateRule</name><class>com.wxxr.callhelper.zjhz.rules.StartDateRule</class></rule>
+
+	<rule-execution-set>
+	    <name>CMHELP_DXHZ_RULESET</name> 
+	    <description>Default publication policy for ZJHZ</description>
+	    <rule> <name>StartDateRule</name> </rule>
+	    <rule> <name>PriorityOnlyRule</name> </rule>
+	    <rule> <name>ZjhzMessagePickRule</name> </rule>
+	</rule-execution-set>
+             
+</config>

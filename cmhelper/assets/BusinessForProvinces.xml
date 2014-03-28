@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<businesses>
+    <business>
+        <name>GD</name>
+        <businessname>本机号码账户余额、订购的数据业务、GPRS月套餐剩余流量、套餐剩余短信</businessname>
+        <icon>0、1、2、3</icon>
+        <code>gd_1、gd_2、gd_3、gd_4</code>
+    </business>
+    
+    <business>
+        <name>HB</name>
+        <businessname>来电提醒、短信回执</businessname>
+        <icon>0、3</icon>
+        <code>hb_1、hb_2</code>
+    </business>
+    
+</businesses>

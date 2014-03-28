@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wxxr.mobile.callhelper.widget.ResizeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://wxxr.com.cn/binding" 
+    android:id="@+id/root_resizediv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/ll_mainbackground"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/text_notuse"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+
+            <ListView
+                android:id="@+id/lv_sms_maincontentt"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:cacheColorHint="@color/white"
+                android:divider="@color/white"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none"
+                android:listSelector="@color/white"
+                android:scrollbars="none"
+                android:visibility="visible" 
+                bind:itemViewId="MissCallSessionItemSelector"
+                bind:field="sms"/>
+
+            <include layout="@layout/tel_detail_sendbox" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.wxxr.mobile.callhelper.widget.ResizeLayout>

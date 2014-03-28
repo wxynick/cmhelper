@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://wxxr.com.cn/binding"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gd_dialog_bg"
+        android:orientation="vertical" >
+
+        <!-- 标题 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gd_dialog_titlebar_bg"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gd_item_long_dialog_margin_left"
+                android:text="选择操作方式"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_item_long_dialog_text_size" />
+        </LinearLayout>
+
+        <!-- 呼叫 -->
+
+        <LinearLayout
+             android:id="@+id/gd_ll_item_long_dialog_call"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_item_long_dialog_height"
+            android:background="@drawable/gd_item_long_dialog_selector"
+            android:gravity="center" 
+            bind:field="*"
+            bind:on_Click="callUp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="呼叫"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_item_long_dialog_text_size" 
+                
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/gd_dialog_line" />
+
+        <!-- 发送短信 -->
+
+        <LinearLayout
+            android:id="@+id/gd_ll_item_long_dialog_send"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_item_long_dialog_height"
+            android:background="@drawable/gd_item_long_dialog_selector"
+            android:gravity="center" 
+            bind:field="*"
+            bind:on_Click="sentMessage">
+
+            <TextView
+                android:id="@+id/gd_tv_item_long_dialog_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送短信"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_item_long_dialog_text_size"
+                
+                 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/gd_dialog_line" />
+
+        <!-- 添加&查看联系人 -->
+
+        <LinearLayout
+            android:id="@+id/gd_ll_item_long_dialog_contacts"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_item_long_dialog_height"
+            android:background="@drawable/gd_item_long_dialog_selector"
+            android:gravity="center"
+            bind:field="*"
+            bind:on_Click="addContactPerson" >
+
+            <TextView
+                android:id="@+id/gd_tv_item_long_dialog_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看联系人"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_item_long_dialog_text_size" 
+                
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/gd_dialog_line" />
+
+        <!-- 删除 -->
+
+        <LinearLayout
+            android:id="@+id/gd_ll_item_long_dialog_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_item_long_dialog_height"
+            android:background="@drawable/gd_item_long_dialog_selector"
+            android:gravity="center"
+            bind:on_Click="remove" 
+             bind:field="*">
+
+            <TextView
+                android:id="@+id/gd_tv_item_long_dialog_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_item_long_dialog_text_size" 
+                
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   	xmlns:bind="http://wxxr.com.cn/binding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gd_dialog_bg"
+        android:orientation="vertical" >
+
+        <!-- 上部分 -->
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gd_dialog_titlebar_bg"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/gd_iv_titlebar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gd_dialog_titlebar_icon_margin_left"
+                android:background="@drawable/gd_dialog_icon"
+                bind:field="icon" />
+
+            <TextView
+                android:id="@+id/tv_dialog_top"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gd_dialog_titlebar_text_margin_left"
+                android:layout_weight="1"
+                android:text="提示"
+                bind:field="title"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_dialog_titlebar_text_size" />
+
+            <ImageView
+                android:id="@+id/gd_iv_dialog_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/gd_dialog_titlebar_close_margin_right"
+                android:background="@drawable/gd_dialog_it_close_selector"
+                android:visibility="gone" />
+        </LinearLayout>
+        <!-- 中部分 -->
+
+        <View
+            android:id="@+id/vi_private_zoo_tanchukuang_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/gd_dialog_line"
+            android:visibility="gone" />
+
+        <!-- 两行文本 -->
+
+
+        <!-- 马上办理 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/gd_dialog_content_second_margin_bottom"
+            android:layout_marginLeft="@dimen/gd_dialog_titlebar_icon_margin_left"
+            android:layout_marginRight="@dimen/gd_dialog_titlebar_close_margin_right"
+            android:layout_marginTop="@dimen/gd_dialog_content_margin_top"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_first_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_dialog_content_text_size" />
+
+            <TextView
+                android:id="@+id/tv_second_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gd_setting_text"
+                android:textSize="@dimen/gd_dialog_content_text_size" />
+        </LinearLayout>
+
+        <!-- 特别提示文本 -->
+
+        <LinearLayout
+            android:id="@+id/ll_order_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/success_register"
+                android:textColor="@color/confirmdialog_textcolor"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- 解锁私密联系人 -->
+
+        <LinearLayout
+            android:id="@+id/gd_private_contacts_unlock"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/gd_dialog_content_margin_bottom"
+            android:layout_marginLeft="@dimen/gd_dialog_titlebar_icon_margin_left"
+            android:layout_marginTop="@dimen/gd_dialog_content_margin_top"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认解锁此私密联系人吗？"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_dialog_content_text_size" />
+
+            <LinearLayout
+                android:id="@+id/gd_ll_dialog_inserttosys_div"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/gd_dialog_content_margin_top"
+                android:gravity="center_vertical" >
+
+                <CheckBox
+                    android:id="@+id/gd_cb_dialog_inserttosys"
+                    style="@style/GD_MyCheckBox"
+                    android:layout_width="@dimen/gd_callrecord_item_checkbox_width"
+                    android:layout_height="@dimen/gd_callrecord_item_checkbox_height" />
+
+                <TextView
+                    android:id="@+id/gd_tv_contacts_unlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/gd_dialog_titlebar_text_margin_left"
+                    android:textColor="@color/gd_setting_text"
+                    android:text="将联系人信息导回手机系统收件箱中。"
+                    android:textSize="@dimen/gd_dialog_private_lock_open_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 私密锁设置 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_private_lock_modi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="修改密码"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/home_user_color" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="私密来信通知提醒"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_private_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/close" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 录音设置 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <!-- 自动 -->
+
+            <LinearLayout
+                android:id="@+id/ll_auto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="自动录音"
+                    android:textColor="@color/confirmdialog_textcolor"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_auto"
+                    android:layout_width="60dip"
+                    android:layout_height="55dip"
+                    android:background="@drawable/callrecordsetting_press" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/menu_line" />
+
+            <!-- 手动 -->
+
+            <LinearLayout
+                android:id="@+id/ll_hand"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="手动录音"
+                    android:textColor="@color/confirmdialog_textcolor"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_hand"
+                    android:layout_width="60dip"
+                    android:layout_height="55dip"
+                    android:background="@drawable/callrecordsetting" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/menu_line" />
+
+            <!-- 开启通话录音 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="开启通话录音"
+                    android:textColor="@color/confirmdialog_textcolor"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_open_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/open" >
+                </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 接收场景 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <!-- 提醒模式 -->
+
+            <LinearLayout
+                android:id="@+id/ll_remind_mode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="提醒模式"
+                        android:textColor="@color/confirmdialog_textcolor"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发送短信失败收回执"
+                        android:textColor="@color/callrecorder_number"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_remind_mode"
+                    android:layout_width="60dip"
+                    android:layout_height="55dip"
+                    android:background="@drawable/callrecordsetting" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginBottom="15dip"
+                android:layout_marginTop="15dip"
+                android:background="@color/menu_line" />
+
+            <!-- 全开模式 -->
+
+            <LinearLayout
+                android:id="@+id/ll_all_mode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="全开模式"
+                        android:textColor="@color/confirmdialog_textcolor"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="每条短信都接收回执"
+                        android:textColor="@color/callrecorder_number"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_all_mode"
+                    android:layout_width="60dip"
+                    android:layout_height="55dip"
+                    android:background="@drawable/callrecordsetting" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 移动业务查询 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <!-- 账户余额 -->
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="80dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="账户余额"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发送短信101到10086"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_private_zoo_remaining_sum"
+                    style="@style/mobile_query_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <!-- 订购业务 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="80dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订购的数据业务"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发送短信0000到10086"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_private_zoo_order_business"
+                    style="@style/mobile_query_btn"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="80dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GPRS月套餐剩余流量"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发送短信112到10086"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_private_zoo_gprs_remaining_sum"
+                    style="@style/mobile_query_btn" />
+            </LinearLayout>
+            <!-- 剩余信息 -->
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="80dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="套餐剩余短信"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="拨打电话1008611"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_private_zoo_sms_remaining_sum"
+                    style="@style/mobile_query_btn" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/menu_line"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- 个人中心，性别 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_private_zoo_gender_male"
+                android:layout_width="fill_parent"
+                android:layout_height="80dip"
+                android:background="@drawable/white_bg"
+                android:text="男"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/menu_line" />
+
+            <Button
+                android:id="@+id/btn_private_zoo_gender_female"
+                android:layout_width="fill_parent"
+                android:layout_height="80dip"
+                android:background="@drawable/white_bg"
+                android:text="女"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+        </LinearLayout>
+        <!-- 个人中心——头像 -->
+
+        <LinearLayout
+            android:id="@+id/ll_confirm9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_private_zoo_icon_seletct"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="从相册选取"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginBottom="30dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="10dip"
+                android:background="@color/menu_line" />
+
+            <Button
+                android:id="@+id/btn_private_zoo_icon_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_cancel_selector"
+                android:text="取  消"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+        </LinearLayout>
+        <!-- 输入年龄 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_confirm10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="18dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_private_zoo_text_input_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dip"
+                android:text="输入生日"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pingdao_dialog_shuru" />
+        </RelativeLayout>
+        <!-- 客服电话 -->
+
+        <LinearLayout
+            android:id="@+id/ll_service_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/service_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="业务咨询热线"
+                android:textColor="#bdbdc5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_service_phone"
+                style="@style/service_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/service_phone"
+                android:text="10086"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                style="@style/service_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客户端咨询热线"
+                android:textColor="#bdbdc5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_service_app"
+                style="@style/service_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/service_phone"
+                android:text="010-57302552"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 删除文本 -->
+
+        <LinearLayout
+            android:id="@+id/gd_ll_dialog_content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/gd_dialog_content_margin_bottom"
+            android:layout_marginLeft="@dimen/gd_dialog_titlebar_icon_margin_left"
+            android:layout_marginRight="@dimen/gd_dialog_titlebar_close_margin_right"
+            android:layout_marginTop="@dimen/gd_dialog_content_margin_top"
+            android:gravity="center_vertical"
+            android:visibility="visible" 
+            >
+
+<!--             <com.wxxr.callhelper.widget.MyTextView -->
+            <TextView
+                android:id="@+id/tv_dialog_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="是否删除？"
+                android:textColor="@color/gd_titlebar_text"
+                bind:field="message"
+                android:textSize="@dimen/gd_dialog_content_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gd_new_vision"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="@dimen/gd_dialog_titlebar_icon_margin_left"
+            android:layout_marginRight="@dimen/gd_dialog_titlebar_close_margin_right"
+            android:layout_marginTop="5dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_new_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="3dp"
+                android:text="发现新版本"
+                android:textColor="@color/gd_titlebar_text"
+                android:textSize="@dimen/gd_dialog_content_text_size" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vi_private_zoo_tanchukuang_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/gd_dialog_line"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_btn_confim_menuitems"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sim_smsdel_item"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ll_btn_confim_menuitem_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dip"
+                    android:text="删除私密联系人信息"
+                    android:textColor="#4a4a4a"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sim_smsdel_item1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ll_btn_confim_menuitem_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dip"
+                    android:text="导出私密信息至手机收件箱"
+                    android:textColor="#4a4a4a"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/menu_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/ll_btn_confim_menuitem_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:textColor="@color/confirmdialog_textcolor"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 下部分 -->
+
+        <View
+            android:id="@+id/vi_private_zoo_above_exit"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/gd_dialog_line"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_dialog_exit"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_dialog_btn_height"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="退   出"
+            android:textColor="@color/gd_it_dialog_btn_font_selector"
+            android:textSize="@dimen/gd_dialog_btn_text_size"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_btn_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible" >
+
+            <Button
+                android:id="@+id/btn_dialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gd_it_left_btn_bg"
+                android:text="取消"
+                bind:field="*"
+                bind:on_Click="left_button"
+                android:textColor="@color/gd_it_dialog_btn_font_selector"
+                android:textSize="@dimen/gd_dialog_btn_text_size" />
+
+            <View
+                android:layout_width="0.5dip"
+                android:layout_height="fill_parent"
+                android:background="@color/gd_dialog_line" />
+
+            <Button
+                android:id="@+id/btn_dialog_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gd_it_right_btn_bg"
+                android:text="确定"
+                bind:field="*"
+                bind:on_Click="right_button"
+                android:textColor="@color/gd_it_dialog_btn_font_selector"
+                android:textSize="@dimen/gd_dialog_btn_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
